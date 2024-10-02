@@ -7,12 +7,26 @@
     <title>tailwind css</title>
   </head>
   <body>
-    <h2
-      class="text-center bg-violet-600 peer text-[#1a3037] p-32 hover:bg-emerald-500 hover:text-slate-100"
+    <div
+      class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in"
     >
-      Lorem ipsum dolor sit.
-    </h2>
-    <h3 class="">Lorem ipsum dolor sit amet.</h3>
-    <input type="text" class= " peer-hover:bg-slate-800 border-amber-400 border-4 placeholder:text-emerald-800" placeholder="kmklmlk">
+      <input
+        type="checkbox"
+        name="toggle"
+        id="toggle"
+        class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer"
+      />
+      <label
+        for="toggle"
+        class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"
+      ></label>
+    </div>
+    <div class="w-1/2 m-10 bg-slate-400 text-slate-800 mx-auto p-6 text-center dark:text-slate-300 dark:bg-slate-800">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, aut.
+      Reprehenderit minima eveniet molestias debitis, sunt distinctio nemo enim?
+      Reprehenderit repudiandae maxime officia sit voluptate ea dolores non
+      architecto corporis.
+    </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
